@@ -18,7 +18,6 @@ There is a bonus task:
     - Results should be displayed ascending / descending based on a flag that the user can change and stays that way until the user changes it again
 '''
 
-
 class TodoTask:
     def __init__(self, id, taskDescripton, dueDate, isComplete):
         self.id = id
