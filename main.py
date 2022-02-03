@@ -58,7 +58,7 @@ def main():
     apiEndpoint = "";
     endpoint = 
     taskList = TodoList()
-    # @TODO fetch tasks using fetchTasksFromServer("https://375b-81-107-44-137.ngrok.io", taskList)
+    # @TODO fetch tasks using fetchTasksFromServer("https://375b-81-107-44-137.ngrok.io/tasks", taskList)
     print("Tasks loaded from server. Here are all your tasks:")
     # @TODO diplay everything
     while(userInput != "-1"):
