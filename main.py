@@ -50,19 +50,24 @@ class TodoList:
     def changeTaskStatus(id):
         pass
 
-def fetchTasksFromServer(api):
+def fetchTasksFromServer(apiEndpoint, taskList):
     pass
 
 def main():
     userInput = "";
     apiEndpoint = "";
+    endpoint = 
+    taskList = TodoList()
+    # @TODO fetch tasks using fetchTasksFromServer("https://375b-81-107-44-137.ngrok.io", taskList)
+    print("Tasks loaded from server. Here are all your tasks:")
+    # @TODO diplay everything
     while(userInput != "-1"):
         print("Press 0 to display all tasks")
         print("Press 1 to display Complete tasks")
         print("Press 2 to display Incomplete tasks")
         print("Press a to add a task")
         print("Press e to mark a task as completed or not")
-        print("Press -1 to exit")
+        print("Press q to exit")
         userInput = input('Please enter a value: ')
         if(userInput == "0"):
             pass
@@ -74,6 +79,9 @@ def main():
             pass
         if(userInput == "e"):
             pass
+        if(userInput == "q"):
+            print("Goodbye")
+            break;
         
 
 if __name__ == "__main__":
