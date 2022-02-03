@@ -1,5 +1,7 @@
 # live-interview
 
+Time: 20 min.
+
 # Tasks app
 
 - Fill the methods and classes of this app to create a fully working tasks app
