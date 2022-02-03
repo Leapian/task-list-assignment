@@ -12,12 +12,14 @@
   3) Based on the user input there are a couple of operations that need to happen -> Check each method that is not filled -> Fill the methods. 
   (Feel free to add any other methods, variables that you deem are needed for the completion of this exercise)
     
-Useful Information:
-    1) The datetimes are provided in miliseconds from the server
-    2) The id is provided from the server for each task
+# Useful Information
+  1) The datetimes are provided in miliseconds from the server
+  2) The id is provided from the server for each task
+
 The tasks should be displayed in the format below:
 [ ] Task description / Due 12th Jan 2021 - For todo tasks
 [x] Task description / Due 12th Jan 2021 - For done tasks
 [o] Task description / Due 12th Jan 2021 - For overdue tasks
-There is a bonus task:
-    - Results should be displayed ascending / descending based on a flag that the user can change and stays that way until the user changes it again
+
+# Bonus task (After completing everyhting else, if there is time)
+  - Results should be displayed ascending / descending based on a flag that the user can change and stays that way until the user changes it again
