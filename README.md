@@ -2,6 +2,8 @@
 
 Time: 20 min.
 
+Important: Be chill, relaxed and do your best!
+
 # Tasks app
 
 - Fill the methods and classes of this app to create a fully working tasks app
